@@ -1,0 +1,238 @@
+.loading{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background:#fff;
+    z-index:1000; /* 이 값으로 레이어의 위치를 조정합니다. */
+}
+
+ul#face-des-list li, ol#face-des-list li {
+    list-style: none;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
+}
+
+ul#voice-des-list li, ol#voice-des-list li {
+    list-style: none;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
+}
+
+#voice-des-title, #face-des-title, #sidedesc{
+    list-style: none;
+    color:black;
+}
+
+ul{
+    padding: 0px;    
+}
+
+h1{
+    width:90%;
+}
+
+.logo{
+    width:500px;
+    display: block;
+    margin: 0px auto;
+}
+
+#voice-marker-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 10px;
+    width: 100%;
+  }
+  
+#voice-marker-list .voice-marker {
+    position: absolute;
+    top: 0;
+    width: 3px;
+    height: 280%;
+    background-color: red;
+}
+
+.voice-marker{
+    cursor:pointer;
+    line-height: 0%;
+}
+
+#face-marker-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+  }
+  
+#face-marker-list .face-marker {
+    position: absolute;
+    top: 0;
+    width: 3px;
+    height: 70%;
+    background-color: blue;
+}
+
+.face-marker{
+    cursor: pointer;
+}
+
+#header {
+    background-color:lightgrey;
+    height:10px;
+}
+#side {
+    background-color:#ebfef4;
+    color:white;
+    width:29%;
+    height:600px;
+    float:left;
+}
+#section {
+    width:69%;
+    text-align:left;
+    float:left;
+    padding:10px;
+}
+#footer {
+    background-color:#ebfef4;
+    height:200px;
+    padding: 20px;
+    clear:both;
+    overflow:auto;
+}
+#header, #nav, #section, #footer { text-align:center; }
+
+body {
+	text-align: center;
+}
+ 
+textarea{
+    width:100%;
+    height:100%
+}
+
+header,section,footer,aside,nav,article,hgroup {
+	display: block;
+}
+#skin {
+	width:100%;
+    height:100%;
+	margin:10px auto;
+	border:1px solid lightgray;
+}
+nav {
+    display:static;
+    width: 80%;
+    height: 50px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 20%;
+}
+
+#descr{
+    margin:5pt 0pt 0pt 0pt;
+}
+
+#playButton{
+    margin:auto;
+    height:40px;
+}
+
+button {
+    padding: 8px 8px;
+    text-align: center;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size:10pt;
+    width:80%;
+    display: inline-block;
+    border-radius: 4em;
+    border:  solid transparent;
+    background: linear-gradient(0deg, green, #7cdb00), linear-gradient(0deg,green, #7cdb00);
+    color: #7cdb00;
+    background-clip:  border-box, text;
+    background-position: center center;
+    box-shadow:inset 0 0 0 100px white;
+    background-size:  110% 110%;
+}
+
+#buttons {
+    padding:3px;
+	float:left;
+	width:9%;
+    height:50px;
+}
+
+#buttons2 {
+    padding:3px;
+	float:left;
+	width:9%;
+    height:40px;
+}
+
+button:hover{
+    box-shadow:inset 0 0 0 100px #7cdb00;
+    color: white;
+}
+
+#defaultBar {
+    background-color: white;
+    background: 50%;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    width:60%;
+    height: 80%;
+    padding: 2px 5px;    
+    box-shadow: 0px 0px 10px 0px #969696;
+}
+#progressBar {
+	position:absolute;
+	width:0px;
+    border-radius: 100px;
+    background: #7cdb00;
+    height: 30px;
+    
+}
+#voiceBars {
+    background-color: white;
+    background: 50%;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    width:60%;
+    height: 80%;
+    padding: 2px 5px;    
+    box-shadow: 0px 0px 10px 0px #969696;
+}
+
+#faceBars {
+    background-color: white;
+    background: 50%;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    width:60%;
+    height: 80%;
+    padding: 2px 5px;    
+    box-shadow: 0px 0px 10px 0px #969696;
+}
+
+#analScript{
+    font-size: 13pt;
+}
